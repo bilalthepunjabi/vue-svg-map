@@ -1,14 +1,11 @@
 <script setup>
 import MAPS from 'svg-maps';
-import Map from './Map.vue';
+import HeatMap from './HeatMap.vue';
 console.log(MAPS.USA);
 </script>
 
 <template>
-  <Map
-    :map="MAPS.USA"
-    location-role="link"
-	/>
+  <HeatMap/>
 </template>
 
 <style scoped>
